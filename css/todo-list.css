@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+    width: 200px;
+}
+
+.container{
+    min-height: 500px;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+#conteudo{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    min-height: 300px;
+    border: 1px #fff solid;
+}
+
+#itemList{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px #fff solid;
+}
+
+#nome-tarefa{
+    width: 70%;
+    float: left;
+}
+
+#status{
+    width: 28%;
+    float: left;
+}
